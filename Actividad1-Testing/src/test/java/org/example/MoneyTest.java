@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;//permite la anotacion @Test
 import static org.assertj.core.api.Assertions.assertThat;//importacion estatica del metodo
 
 class MoneyTest {//clase de prueba, no amplia ni una clase base ni interfaz
-    @Test//permite reconcer el metodo de prueba
+    @Test//permite reconocer el metodo de prueba
     void constructorShouldSetAmountAndCurrency() {//metodo de prueba
         // Completa
         Money money = new Money(10, "USD");//SUT
