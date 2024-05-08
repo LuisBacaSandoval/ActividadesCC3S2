@@ -1,0 +1,6 @@
+projectKey=CodigoEstatico
+serverUrl=http://localhost:9000
+serverVersion=9.9.0.65466
+dashboardUrl=http://localhost:9000/dashboard?id=CodigoEstatico
+ceTaskId=AY9Wya4Ytx4g1zp95oyk
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AY9Wya4Ytx4g1zp95oyk
