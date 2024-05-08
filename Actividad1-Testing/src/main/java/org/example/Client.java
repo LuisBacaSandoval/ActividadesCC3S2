@@ -11,7 +11,6 @@ public class Client {
     public void addAddress(Address address){
         addresses.add(address);
     }
-    //This method night be necessary for yout test assertions
     public List<Address> getAddresses(){
         return addresses;
     }
