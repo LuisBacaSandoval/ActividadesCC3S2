@@ -10,7 +10,7 @@ Tareas:
 
 * Implementar pruebas básicas: Se implementó HintGeneratorTest y WordSelectorTest.
 
-![Test1](./img/sprint1test1.png)
+![Test1](./img/spirnt1test1.png)
 
 La imagen muestra los siguientes test:
 
@@ -20,7 +20,7 @@ Test para que si seleccionas una palabra esta debe estar dentro de la lista de p
 
 * Crear la estructura inicial de clases y métodos: Se muestra los resultados en consola de lo aplicado.
 
-![Juego de adivinanza](./img/spirnt1test1.png)
+![Juego de adivinanza](./img/sprint1consola.png)
 
 El programa muestra un mensaje de bienvenida al usuario.
 
