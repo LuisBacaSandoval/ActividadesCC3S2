@@ -1,0 +1,12 @@
+apiVersion: v1 #especifica la version de la api de kubernetes
+kind: Service # tipo de objeto
+metadata:
+  name: tower-defense-service # nombre del objeto
+spec: # especificaciones del objeto
+  selector:
+    app: tower-defense-game
+  ports: # define los puertos que estarán expuestos
+    - protocol: TCP # protocolo utilizado para el trafico
+      port: 80 # especifica el puerto del servicio(tower-defense-game)
+      targetPort: 8080
+  type: LoadBalancer
