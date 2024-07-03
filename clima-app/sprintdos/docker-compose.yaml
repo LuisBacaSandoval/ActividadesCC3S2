@@ -1,0 +1,19 @@
+version: '3'
+services:
+  clima:
+    build: .
+    networks:
+      - clima-network
+    volumes:
+      - clima-data:/app/data
+    container_name: clima-app-container
+    stdin_open: true # Habilita la entrada interactiva
+    tty: true # Asigna un pseudo-TTY
+
+networks:
+  clima-network:
+    driver: bridge
+
+volumes:
+  clima-data:
+    driver: local
